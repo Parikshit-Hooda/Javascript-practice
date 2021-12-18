@@ -14,3 +14,9 @@ Output: undefined
 
 items
 Output: (2) ['<l1>red</li>', '<l1>blue</li>']
+
+
+//multi-line string using template literals
+const example = `line1
+line2
+line3`;
