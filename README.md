@@ -48,6 +48,8 @@ Note: Arrow functions don't rebind the 'this' keyword.
 
 [template literals.js](https://github.com/Parikshit-Hooda/Javascript-practice/blob/main/template%20literals.js)
 
+Note: Template literals allow us to have multi-line strings. For example, see [this](https://github.com/Parikshit-Hooda/Javascript-practice/blob/f64e17299240e81821397f8fed2f07c7cf4c7e32/template%20literals.js#L19).
+
 
 ### Object destructuring
 
@@ -72,7 +74,12 @@ ES6 spread operator helps us construct new arrays/objects by 'spreading' the exi
 [named and default exports.js](https://github.com/Parikshit-Hooda/Javascript-practice/blob/main/named%20and%20default%20exports.js)
 
 
+## padStart() and padEnd()
 
+The padStart function is used for padding the start of a string.
+The padEnd function is used for padding the end of a string.
+
+[padStart and padEnd.js](https://github.com/Parikshit-Hooda/Javascript-practice/blob/main/padStart%20and%20padEnd.js)
 
 
 ### Notes
