@@ -78,3 +78,8 @@ ES6 spread operator helps us construct new arrays/objects by 'spreading' the exi
 ### Notes
 - In JS, functions are objects.
 - Using JS 'bind' method, one can bind a method to a JS object to avoid ambiguous behavior of JS 'this' keyword.
+
+
+### Resources
+
+[Mosh ES6 Tutorial](https://www.youtube.com/watch?v=NCwa_xi0Uuc)
