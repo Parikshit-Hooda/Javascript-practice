@@ -8,3 +8,32 @@ Javascript code snippets
 - const -> block scoped. variable declared with const is visible everywhere inside the block its declared in. A const variable can only be declared once. Value has to be assigned at the time of declaration. 
 
 [some code snippets](https://github.com/Parikshit-Hooda/Javascript-practice/blob/main/var%20let%20const.js)
+
+
+### Arrow function
+
+Syntax for regular JS functions:
+const square = function(num) {
+return num * num;
+}
+
+Syntax for arrow functions:
+
+const square = (num) => {
+return num * num;
+}
+
+or 
+
+const square = num => num * num; //note that we can remove the parentheses in the parameters in case of only 1 parameter being passed.
+
+In case of no parameter,
+
+const dummy = () => console.log("dummy function");
+
+Note: Arrow functions don't rebind the 'this' keyword.
+
+
+### Notes
+- In JS, functions are objects.
+- Using JS 'bind' method, one can bind a method to a JS object to avoid ambiguous behavior of JS 'this' keyword.
